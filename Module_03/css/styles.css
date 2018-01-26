@@ -43,13 +43,14 @@ h2 {
   font-weight: bold;
 }
 .p-text {
-  display: block;
+  display: inline-block;
   margin-top: 28px;
 }
 .content {
   margin-top: 22px;
   margin-bottom: 53px;
   font-size: 12px;
+  display: inline-block;
 }
 .line {
   margin-top: 53px;
