@@ -5,7 +5,6 @@ body {
    background-position: center center;
    background-attachment: fixed;
    background-size: cover;
-   
 }
 .block {
   margin-left: auto;
@@ -17,7 +16,6 @@ body {
   width: 480px;
   background: #ffffff;
 }
-
 
 #Profile-article {
   margin-bottom: 53px;
