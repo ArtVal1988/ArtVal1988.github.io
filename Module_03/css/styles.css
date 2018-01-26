@@ -5,34 +5,33 @@ body {
    background-position: center center;
    background-attachment: fixed;
    background-size: cover;
-   
 }
 .block {
   margin-left: auto;
   margin-right: auto;
-  width: 480px;
-  text-align: left;
-  background: #ffffff;
-  background-position: center center;
-}
-.wrapper {
-  padding-top: 60px;
   padding-left: 37px;
   padding-right: 37px;
+  padding-top: 60px;
+  padding-bottom: 44px;
+  width: 480px;
+  background: #ffffff;
 }
 
+#Profile-article {
+  margin-bottom: 53px;
+}
 h2 {
   font-family: 'Pathway Gothic One';
   font-size: 25px;
   text-transform: uppercase;
-  
 }
-.img {
-  margin-top: 33px;
-  height: 100px;
-  background-color: black;
-  background-image: url('../img/article.jpg');
+.image {
   display: block;
+  margin-top: 33px;
+  margin-bottom: 28px;
+  height: 100px;
+  background-size: cover;
+  background-image: url('../img/article.jpg');
 }
 
 .p-text, .content, .column {
@@ -42,22 +41,21 @@ h2 {
   font-size: 14px;
   font-weight: bold;
 }
-.p-text {
-  display: inline-block;
-  margin-top: 28px;
-}
+
 .content {
-  margin-top: 22px;
-  margin-bottom: 53px;
+  font-family: Arial;
   font-size: 12px;
-  display: inline-block;
 }
+
 .line {
+  display: block;
   margin-top: 53px;
   margin-bottom: 53px;
   border-top: 2px solid #dedbdb;
 }
+
 .column {
+  display: block;
   margin-top: 40px;
   margin-left: 23px;
 }
@@ -69,4 +67,4 @@ h2 {
 .right {
   display: inline-block;
   width: 50%;
-}
+} 
