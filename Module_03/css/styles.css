@@ -1,0 +1,70 @@
+body {
+   background-color: #ccf;
+   background-image: url('../img/bg.jpg');
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-attachment: fixed;
+   background-size: cover;
+}
+.block {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 37px;
+  padding-right: 37px;
+  padding-top: 60px;
+  padding-bottom: 44px;
+  width: 480px;
+  background: #ffffff;
+}
+
+#Profile-article {
+  margin-bottom: 53px;
+}
+h2 {
+  font-family: 'Pathway Gothic One';
+  font-size: 25px;
+  text-transform: uppercase;
+}
+.image {
+  display: block;
+  margin-top: 33px;
+  margin-bottom: 28px;
+  height: 100px;
+  background-size: cover;
+  background-image: url('../img/article.jpg');
+}
+
+.p-text, .content, .column {
+  font-family: Arial;
+}
+.p-text, .column {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.content {
+  font-family: Arial;
+  font-size: 12px;
+}
+
+.line {
+  display: block;
+  margin-top: 53px;
+  margin-bottom: 53px;
+  border-top: 2px solid #dedbdb;
+}
+
+.column {
+  display: block;
+  margin-top: 40px;
+  margin-left: 23px;
+}
+.left {
+  display: inline-block;
+  width: 50%;
+  margin-right: -4px;
+}
+.right {
+  display: inline-block;
+  width: 50%;
+} 
