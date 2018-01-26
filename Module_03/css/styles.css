@@ -12,10 +12,10 @@ body {
   margin-right: auto;
   width: 480px;
   text-align: left;
+  background: #ffffff;
+  background-position: center center;
 }
 .wrapper {
-  background: rgb(255, 255, 255);
-  background-position: 50% 50%;
   padding-top: 60px;
   padding-left: 37px;
   padding-right: 37px;
@@ -35,29 +35,27 @@ h2 {
   display: block;
 }
 
-.p-text, .content
-.p-text {
+.p-text, .content, .column {
   font-family: Arial;
+}
+.p-text, .column {
+  font-size: 14px;
   font-weight: bold;
+}
+.p-text {
   display: block;
   margin-top: 28px;
-  font-size: 14px;
 }
 .content {
   margin-top: 22px;
   margin-bottom: 53px;
-  font-family: Arial;
   font-size: 12px;
 }
-
 .line {
-  margin-top: 54px;
+  margin-top: 53px;
   margin-bottom: 53px;
   border-top: 2px solid #dedbdb;
 }
-
-
-
 .column {
   margin-top: 40px;
   margin-left: 23px;
