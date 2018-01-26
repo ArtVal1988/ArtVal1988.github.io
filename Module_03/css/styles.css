@@ -1,0 +1,74 @@
+body {
+   background-color: #ccf;
+   background-image: url('../bg.jpg');
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-attachment: fixed;
+   background-size: cover;
+   
+}
+.block {
+  margin-left: auto;
+  margin-right: auto;
+  width: 480px;
+  text-align: left;
+}
+.wrapper {
+  background: rgb(255, 255, 255);
+  background-position: 50% 50%;
+  padding-top: 60px;
+  padding-left: 37px;
+  padding-right: 37px;
+}
+
+h2 {
+  font-family: 'Pathway Gothic One';
+  font-size: 25px;
+  text-transform: uppercase;
+  
+}
+.img {
+  margin-top: 33px;
+  height: 100px;
+  background-color: black;
+  background-image: url('../article.jpg');
+  display: block;
+}
+
+.p-text, .content
+.p-text {
+  font-family: Arial;
+  font-weight: bold;
+  display: block;
+  margin-top: 28px;
+  font-size: 14px;
+}
+.content {
+  margin-top: 22px;
+  margin-bottom: 53px;
+  font-family: Arial;
+  font-size: 12px;
+}
+
+.line {
+  margin-top: 54px;
+  margin-bottom: 53px;
+  border-top: 2px solid #dedbdb;
+}
+
+
+
+.column {
+  margin-top: 40px;
+  margin-left: 23px;
+  margin-bottom: 44px;
+}
+.left {
+  display: inline-block;
+  width: 50%;
+  margin-right: -4px;
+}
+.right {
+  display: inline-block;
+  width: 50%;
+}
