@@ -1,0 +1,18 @@
+{
+  "previewServer.stratupProject": "Product"
+}
+{
+"folders": [
+  {
+    "name": "Product",
+    "path": "foo"
+  },
+  {
+          "name": "Test",
+    "path": "bar"
+  }
+],
+"settings": {
+  "previewServer.startupProject": "Product"
+}
+}

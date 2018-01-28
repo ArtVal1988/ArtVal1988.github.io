@@ -17,32 +17,39 @@ body {
   background: #ffffff;
 }
 
-#Profile-article {
+.profile-article {
   margin-bottom: 53px;
 }
 h2 {
   font-family: 'Pathway Gothic One';
   font-size: 25px;
   text-transform: uppercase;
+  color: #263555;
 }
-.image {
-  display: block;
-  margin-top: 33px;
-  margin-bottom: 28px;
-  height: 100px;
-  background-size: cover;
-  background-image: url('../img/article.jpg');
+h3 {
+  color: #263555;
 }
 
-.p-text, .content, .column {
+img {
+  width: 100%;
+}
+.img {
+  display: block;
+  height: 100px;
+  margin-top: 33px;
+  margin-bottom: 28px;
+  overflow: hidden;
+}
+
+article, .column, h3 {
   font-family: Arial;
 }
-.p-text, .column {
+.column, h3 {
   font-size: 14px;
   font-weight: bold;
 }
 
-.content {
+article {
   font-family: Arial;
   font-size: 12px;
 }
@@ -54,17 +61,18 @@ h2 {
   border-top: 2px solid #dedbdb;
 }
 
-.column {
-  display: block;
+.table {
+  display: table;
   margin-top: 40px;
   margin-left: 23px;
 }
-.left {
-  display: inline-block;
-  width: 50%;
-  margin-right: -4px;
-}
-.right {
-  display: inline-block;
-  width: 50%;
-} 
+  .row {
+    display: table-row;
+    width: 45%;
+    padding-bottom: 20px;
+  }
+  .column {
+    display: table-cell;
+    width: 55%;
+    padding-bottom: 20px;
+  }
