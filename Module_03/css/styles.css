@@ -28,6 +28,9 @@ h2 {
 }
 h3 {
   color: #263555;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: Arial;
 }
 
 img {
@@ -40,27 +43,16 @@ img {
   margin-bottom: 28px;
   overflow: hidden;
 }
-
-article, .column, h3 {
-  font-family: Arial;
-}
-.column, h3 {
-  font-size: 14px;
-  font-weight: bold;
-}
-
-article {
+p {
   font-family: Arial;
   font-size: 12px;
 }
-
 .line {
   display: block;
   margin-top: 53px;
   margin-bottom: 53px;
   border-top: 2px solid #dedbdb;
 }
-
 .table {
   display: table;
   margin-top: 40px;
