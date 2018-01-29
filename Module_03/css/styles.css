@@ -6,15 +6,16 @@ body {
    background-attachment: fixed;
    background-size: cover;
 }
-.block {
+.wrapper {
+  display: block;
+  width: 480px;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 60px;
   padding-left: 37px;
   padding-right: 37px;
-  padding-top: 60px;
   padding-bottom: 44px;
-  width: 480px;
-  background: #ffffff;
+  background-color: #ffffff;
 }
 
 .profile-article {
@@ -32,10 +33,6 @@ h3 {
   font-weight: bold;
   font-family: Arial;
 }
-
-img {
-  width: 100%;
-}
 .img {
   display: block;
   height: 100px;
@@ -43,28 +40,28 @@ img {
   margin-bottom: 28px;
   overflow: hidden;
 }
+img {
+  width: 100%;
+}
+
 p {
   font-family: Arial;
   font-size: 12px;
 }
+
 .line {
   display: block;
   margin-top: 53px;
   margin-bottom: 53px;
   border-top: 2px solid #dedbdb;
 }
-.table {
-  display: table;
-  margin-top: 40px;
-  margin-left: 23px;
+
+.columns {
+  display:block;
+  column-count: 2;
 }
-  .row {
-    display: table-row;
-    width: 45%;
-    padding-bottom: 20px;
-  }
-  .column {
-    display: table-cell;
-    width: 55%;
-    padding-bottom: 20px;
-  }
+
+li {
+  display: inline-block;
+  list-style: none;
+}
