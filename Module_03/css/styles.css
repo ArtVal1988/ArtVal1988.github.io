@@ -35,7 +35,6 @@ h3 {
 }
 .img {
   display: block;
-  height: 100px;
   margin-top: 33px;
   margin-bottom: 28px;
   overflow: hidden;
@@ -47,6 +46,7 @@ img {
 p {
   font-family: Arial;
   font-size: 12px;
+  color: #4e5050;
 }
 
 .line {
@@ -56,12 +56,15 @@ p {
   border-top: 2px solid #dedbdb;
 }
 
-.columns {
-  display:block;
-  column-count: 2;
-}
-
-li {
+.columns li {
   display: inline-block;
   list-style: none;
+}
+
+.left {
+  width: 50%;
+}
+
+.right {
+  width: 49%;
 }
