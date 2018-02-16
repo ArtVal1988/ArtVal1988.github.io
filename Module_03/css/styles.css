@@ -5,6 +5,7 @@ body {
    background-position: center center;
    background-attachment: fixed;
    background-size: cover;
+   
 }
 .wrapper {
   display: block;
@@ -59,6 +60,7 @@ p {
 .columns li {
   display: inline-block;
   list-style: none;
+  font-size: 0;
 }
 
 .left {
@@ -66,5 +68,5 @@ p {
 }
 
 .right {
-  width: 49%;
+  width: 50%;
 }
