@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family: Roboto-light;
+  src: url(../fonts/Roboto-Light.ttf);
+  font-weight: normal;
+}
+@font-face {
+  font-family: Roboto-Black;
+  src: url(../fonts/Roboto-Black.ttf);
+  font-weight: bold;
+}
+
+
+
+.wrapper {
+  width: 1600px;
+  height: 1455px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div, section {
+  border: 1px solid blue;
+}
+article {
+  border: 1px solid green;
+}
+
+header {
+  border: 1px solid red;
+
+  height: 90px;
+  background: #ffffff;
+}
+
+p:first-letter {
+  font-size: 36px;
+  color: red;
+}
+
+
+
+
+
+
+
+
+.slider {
+  height: 600px;
+  /* background: #494849; */
+
+}
+
+.slider-content img {
+  /* background-color: rgba(0,0,2,0.5); */
+  background-size: cover;
+  max-width: 100%;
+  max-height: 100%
+
+}
+
+/* .slider-content img {
+  height: 600px;
+  background-image: url(../img/slide4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+
+/* img {
+  height: 600px;
+  width: 1600px;
+} */
+
+
+
+.wrapper- {
+  background-color: #e9f0fd;
+}
+.section-title {
+  height: 253px;
+}
+
+.new-collection {
+  height: 423px;
+
+}
+
+footer {
+  height: 88px;
+  background-color: #323232;
+}
