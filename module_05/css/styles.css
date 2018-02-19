@@ -31,13 +31,6 @@ body {
   margin-right: auto;
 }
 
-div, section {
-  border: 1px solid blue;
-}
-article {
-  border: 1px solid green;
-}
-
 /* Header - start */
 header {
   border: 1px solid red;
@@ -205,10 +198,7 @@ header {
 }
 /* SECTION TITLE - end */
 /* Collection - start */
-/* .new-collection {
-  position: relative;
-} */
-.collection {
+/* .collection {
   position: relative;
   display: block;
   height: 322px;
@@ -216,43 +206,114 @@ header {
   margin: 80px 0px 100px 245px;
   padding: 0;
 }
-
 .collection .item {
   position: absolute;
-  left: 245px;
-  top: 945px;
+  display: inline-block;
+  width: 255px;
+  height: 322px;
+}
+.collection p {
+  position: absolute;
+  left: 13px;
+  font-family: Roboto-Black;
+  font-size: 18px;
+  color: #ffffff;
+}
+.item img {
+  width: 100%;
+}
+.item .pic_item {
+  vertical-align: top;
+
+}
+.item .pic_bottom {
+  position: absolute;
+  bottom: 0;
+}
+
+.collection .item-1 {
+  position: absolute;
+  left: 285px;
 
   display: inline-block;
   width: 255px;
   height: 322px;
-  /* margin: 0px 30px 0px 0px;
-  padding: 0; */
-}
-.collection .item-1 {
-  display: inline-block;
-  width: 255px;
-  height: 322px;
-  margin: 0px 30px 0px 0px;
-  padding: 0;
 }
 .collection .item-2 {
+  position: absolute;
+  left: 570px;
+
   display: inline-block;
   width: 255px;
   height: 322px;
-  margin: 0px 30px 0px 0px;
-  padding: 0;
 }
 .collection .item-3 {
+  position: absolute;
+  left: 855px;
+
   display: inline-block;
   width: 255px;
   height: 322px;
+} */
+/* Collection - end */
+
+.collection {
+  width: 1110px;
+  height: 322px;
+  margin-left: 245px;
+  margin-top: 80px;
+  margin-bottom: 100px;
   padding: 0;
 }
+.item {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.item span {
+  background: #ffffff;
+  width: 255px;
+  height: 322px;
+}
+.item span .pic-item {
+  vertical-align: top;
+}
+
+.line-bottom {
+  position: relative;
+}
+.bottom-left {
+  position: absolute;
+  width: 200px;
+  height: 40px;
+  background-color: #323232;
+}
+.bottom-right {
+  position: absolute;
+  left: 200px;
+  width: 55px;
+  height: 40px;
+  background-color: #8c8c8c;
+}
+.line-bottom p {
+  font-family: Roboto-Black;
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 40px;
+  padding-left: 11px;
+  text-transform: uppercase;
 
 
 
 
-/* Collection - end */
+
+
+/* Collection - NEW - start */
+
+
+
+
+/* Collection - NEW - end */
 
 
 
