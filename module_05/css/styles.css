@@ -16,7 +16,6 @@
   src: url(../fonts/OpenSans-Bold.ttf);
   src: url(../fonts/OpenSans-Italic.ttf);
   src: url(../fonts/OpenSans-Light.ttf);
-  src: url(../fonts/OpenSans-Regular.ttf);
 }
 @font-face {
   font-family: OpenSans-Regular;
@@ -26,8 +25,6 @@
 body {
   background: #fffcf4;
 }
-
-
 .wrapper {
   width: 1600px;
   height: 1455px;
@@ -37,25 +34,15 @@ body {
 
 /* Header - start */
 header {
-  border: 1px solid red;
   height: 91px;
   background: #ffffff;
   position: relative;
 }
 /* Logo-start */
-.logo {
+.logo img {
   position: absolute;
-  display: inline-block;
   margin-left: 245px;
   margin-top: 36px;
-}
-.logo p {
-  font-family: Roboto-Black;
-  font-size: 30px;
-  color: #555252;
-}
-.logo p:first-letter {
-  color: #1abc9c;
 }
 /* Logo-end */
 /* Menu-start */
@@ -285,23 +272,23 @@ header {
   position: relative;
 }
 
-.line-bottom {
+.line-button {
   position: relative;
 }
-.bottom-left {
+.button-left {
   position: absolute;
   width: 200px;
   height: 40px;
   background-color: #323232;
 }
-.bottom-right {
+.button-right {
   position: absolute;
   left: 200px;
   width: 55px;
   height: 40px;
   background-color: #8c8c8c;
 }
-.line-bottom p {
+.line-button p {
   font-family: Roboto-Black;
   color: #ffffff;
   font-size: 18px;
@@ -309,21 +296,40 @@ header {
   padding-left: 11px;
   text-transform: uppercase;
 }
+.block-one {
+  position: relative;
+}
+.block-two {
+  position: relative;
+}
+.block-three {
+  position: relative;
+}
+.block-four {
+  position: relative;
+}
 
-.hover .wrapper-hover {
+/* Hover - start */
+.info {
   position: absolute;
   top: 0px;
   left: 0px;
   width: 255px;
   height: 282px;
   background: url('../img/item_wrapper.png');
+  opacity: 0;
 }
 
-.wrapper-hover {
+.wrapper-info {
   position: relative;
 }
+.wrapper-info img {
+  padding-left: 12px;
+  padding-top: 12px;
+}
 
-.buttom1 {
+
+.first-button {
   position: absolute;
   left: 45px;
   top: 90px;
@@ -331,18 +337,7 @@ header {
   height: 50px;
   border: 1px solid #ffffff;
 }
-.wrapper-hover img {
-  padding-left: 12px;
-  padding-top: 12px;
-}
-
-.wrapper-hover div:hover {
-  background: #1abc9c;
-  
-
-}
-
-.buttom2 {
+.second-button {
   position: absolute;
   left: 103px;
   top: 90px;
@@ -350,7 +345,7 @@ header {
   height: 50px;
   border: 1px solid #ffffff;
 }
-.buttom3 {
+.third-button {
   position: absolute;
   left: 161px;
   top: 90px;
@@ -358,7 +353,7 @@ header {
   height: 50px;
   border: 1px solid #ffffff;
 }
-.buttom4 {
+.fourth-button {
   position: absolute;
   left: 45px;
   top: 148px;
@@ -367,7 +362,7 @@ header {
   border: 1px solid #ffffff;
   background-color: #323232;
 }
-.buttom4 p {
+.fourth-button p {
   position: absolute;
   left: 61px;
   top: 0px;
@@ -377,11 +372,30 @@ header {
   line-height: 50px;
   text-transform: uppercase;
 }
+.wrapper-info div:hover {
+  background: #1abc9c;
+  border: 1px solid #1abc9c;
+}
 
-/* .collection:hover > .hover {
+.block-one:hover > .one {
   opacity: 1;
-  transition: 0.4s all;
-} */
+  transition: 0.3s all;
+}
+.block-two:hover > .two {
+  opacity: 1;
+  transition: 0.3s all;
+}
+.block-three:hover > .three {
+  opacity: 1;
+  transition: 0.3s all;
+}
+.block-four:hover > .four {
+  opacity: 1;
+  transition: 0.3s all;
+}
+/* Hover - end */
+
+
 
 
 
