@@ -25,7 +25,6 @@
 }
 
 
-/*  */
 .wrapper {
     background-color: #fff;
     max-width: 1220px;
@@ -38,25 +37,29 @@
 
 /* Header */
 header {
-    height: 65px;
-}
-.logo img {
-    position: absolute;
-    top: 29px;
+    height: 75px;
 }
 
-/* Menu */
-nav{
-    position: absolute;
-    top: 40px;
-    left: 720px;
-    width: 488px;
-}
-ul{
+/* Menu - start */
+.menubar {
     display: flex;
-    list-style: none;
+    align-items: flex-end;
     justify-content: space-between;
-}
+  }
+
+.menubar img {
+    width: 100px;
+    height: auto;
+    margin-top: 29px;
+  }
+ol {
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end;
+  }
+li {
+    padding-left: 60px;
+  }
 li a {
     text-decoration: none;
     color: #1abc9c;
@@ -64,21 +67,17 @@ li a {
     font-size: 14px;
     text-transform: uppercase;
 }
-li a:hover{
+li a:hover {
     color:#f38181;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
     border-bottom: 3px solid #f38181;
 }
 /* Menu - end */
 
 
-
-
-
-
 /* Article - TOP - start */
 .first {
-    padding-top: 141px;
+    padding-top: 140px;
     display: block;
     color: #333333;
 }
@@ -96,7 +95,7 @@ li a:hover{
     text-align: center;
     color: inherit;
 }
-.first h2::after{
+.first h2::after {
     content: '';
     display: block;
     width: 60px;
@@ -162,7 +161,7 @@ h3 {
     text-align: center;
     color: inherit;
 }
-.third h2::after{
+.third h2::after {
     content: '';
     display: block;
     width: 60px;
@@ -189,9 +188,6 @@ h3 {
 /* Article - TOP - end */
 
 /* Article - BOTTOM - start */
-
-
-
 .block {
     display: flex;
     flex-wrap: wrap;
@@ -202,11 +198,6 @@ h3 {
     position: relative;
 }
 .block-wrapper {
-    width: 380px;
-    height: 470px;
-}
-.left, .middle, .right {
-    position: relative;
     width: 380px;
     height: 470px;
 }
@@ -226,7 +217,7 @@ h3 {
     justify-content: center;
     align-items: center;
 }
-.social a{
+.social a {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -237,15 +228,20 @@ h3 {
     margin: 0.5px;
 
 }
-.social a:hover{
+.social a:hover {
     background-color:#95e1d3;
+}
+.left, .middle, .right {
+    position: relative;
+    width: 380px;
+    height: 470px;
 }
 .left:hover, .middle:hover, .right:hover {
     transition: 220ms;
     box-shadow: 10px 10px #95e1d3;
     transform: translate(-10px, -10px);
 }
-.left:hover > .social, .middle:hover > .social, .right:hover > .social{
+.left:hover > .social, .middle:hover > .social, .right:hover > .social {
     opacity: 1;
     display: flex;
     justify-content:center;
@@ -257,8 +253,6 @@ h3 {
     background: linear-gradient(to top, 
     rgba(252, 227, 138, 0.9), 
     rgba(243, 129, 129, 0.9));
-    
-    
 }
 
 .social {
@@ -268,6 +262,7 @@ h3 {
 .name {
     display: inline-block;
     margin-top: 30px;
+    margin-bottom: 90px;
     width: 100%;
     text-align: center;
 }
